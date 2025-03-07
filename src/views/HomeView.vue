@@ -1,6 +1,7 @@
 <script setup>
 import HomeGrid from '@/components/HomeGrid.vue';
 import HomeSwiper from '@/components/HomeSwiper.vue';
+import HomeNew from '@/components/HomeNew.vue';
 import { showToast } from 'vant';
 import { ref } from 'vue';
 
@@ -33,8 +34,11 @@ const onCancel = function() {
   <!-- 功能区 -->
   <HomeGrid />
 
-   <!-- 商品信息展示区 -->
+  <!-- 商品信息展示区 -->
   <HomeProduct />
+
+  <!-- 每周上新 -->
+  <HomeNew />
 
   <!-- 这个是一定得加上的 -->
   <VanToast />
