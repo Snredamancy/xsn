@@ -33,6 +33,9 @@ const onCancel = function() {
   <!-- 功能区 -->
   <HomeGrid />
 
+   <!-- 商品信息展示区 -->
+  <HomeProduct />
+
   <!-- 这个是一定得加上的 -->
   <VanToast />
 </template>
