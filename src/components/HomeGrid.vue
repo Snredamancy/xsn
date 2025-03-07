@@ -25,7 +25,14 @@ const menuList = [
 </script>
 
 <template>
-
+ <div class="home-grid">
+        <van-grid square :column-num="5">
+            <van-grid-item v-for="list in menuList" :key="list">
+                <van-image :src="list.url" />
+                <span>{{ list.text }}</span>
+            </van-grid-item>
+        </van-grid>
+    </div>
 </template>
 
 <style lang="scss" scoped>

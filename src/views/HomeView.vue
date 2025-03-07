@@ -4,6 +4,7 @@ import HomeSwiper from '@/components/HomeSwiper.vue';
 import HomeNew from '@/components/HomeNew.vue';
 import { showToast } from 'vant';
 import { ref } from 'vue';
+import HomeProduct from '@/components/HomeProduct.vue';
 
 // 搜索关键词
 const search = ref('');
