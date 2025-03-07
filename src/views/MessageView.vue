@@ -1,10 +1,9 @@
 <script setup>
-import TabBar from './components/TabBar.vue'
+
 </script>
 
 <template>
-  <RouterView />
-  <TabBar />
+    Message view
 </template>
 
 <style lang="scss" scoped>
