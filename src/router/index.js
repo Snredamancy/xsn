@@ -35,10 +35,22 @@ const router = createRouter({
       name: "login",
       component: () => import("../views/LoginView.vue"),
       meta: {
-      title: "登录",
-      isTab: true,
-      isShowNav: true,
-      isShowBack: true,
+       title: "登录",
+       isTab: true,
+       isShowNav: true,
+       isShowBack: true,
+      }
+    },
+    // 注册页面
+    {
+      path: "/register",
+      name: "register",
+      component: () => import("../views/RegisterView.vue"),
+      meta: {
+       title: "注册",
+       isTab: true,
+       isShowNav: true,
+       isShowBack: true,
       }
     },
     // 购物车页面
