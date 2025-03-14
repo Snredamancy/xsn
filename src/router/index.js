@@ -29,6 +29,18 @@ const router = createRouter({
         isShowNav: true,
       }
     },
+    // 登录页面
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("../views/LoginView.vue"),
+      meta: {
+      title: "登录",
+      isTab: true,
+      isShowNav: true,
+      isShowBack: true,
+      }
+    },
     // 购物车页面
     {
       path: "/cart",
