@@ -5,6 +5,7 @@ import HomeNew from '@/components/HomeNew.vue';
 import { showToast } from 'vant';
 import { ref } from 'vue';
 import HomeProduct from '@/components/HomeProduct.vue';
+import HomeTop from '@/components/HomeTop.vue';
 
 // 搜索关键词
 const search = ref('');
@@ -40,6 +41,9 @@ const onCancel = function() {
 
   <!-- 每周上新 -->
   <HomeNew />
+
+  <!-- 人气推荐 -->
+  <HomeTop />
 
   <!-- 这个是一定得加上的 -->
   <VanToast />
