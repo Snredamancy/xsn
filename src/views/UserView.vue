@@ -35,6 +35,14 @@
             退款/售后
         </van-col>
     </van-row>
+
+    <!-- 导航栏列表 -->
+    <van-cell-group>
+        <van-cell icon="records-o" title="全部订单" is-link></van-cell>
+        <van-cell icon="points" title="我的积分" is-link></van-cell>
+        <van-cell icon="gift-o" title="我的红包" is-link></van-cell>
+        <van-cell icon="service-o" title="联系客服" is-link></van-cell>
+    </van-cell-group>
 </template>
 
 <style lang="scss" scoped>
@@ -46,13 +54,17 @@
         color: white;
         padding: 0 5px;
     }
+}
 
-    // 按钮列表
-    .user-links {
-        .van-col {
-            display: flex;
-            flex-direction: column;
-        }
+// 按钮列表
+.user-links {
+    padding: 15px 0;
+    font-size: 12px;
+    text-align: center;
+    // 这里的图标是特殊字体实现的
+    .van-icon {
+        display: block;
+        font-size: 24px;
     }
 }
 </style>
